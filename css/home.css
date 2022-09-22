@@ -1,49 +1,101 @@
-.container {
+body {
     margin: 0;
 }
 
-#head {
-    height: 10vh;
+.container {
+    margin: 0;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 99vh;
 }
 
-#main {
-    height: 75vh;
+a {
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
+
+.container-head {
     display: flex;
+    justify-content: space-between;
+}
+
+#leftheader, #rightheader {
+    padding: 1.5rem;
+}
+
+.button-apps {
+    border-radius: 20%;
+    size: 20px;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    border-color: lightgray;  
+    padding: 10px;
+}
+
+.button-session {
+    background-color: rgb(64, 124, 255);
+    border-radius: 8px;
+    border-color: rgb(64, 124, 255);
+    padding: 11px;
+}
+
+.button-session:hover {
+    background-color: rgb(48, 95, 196)  ;
+}
+
+.button-session a {
+    color:whitesmoke;
+}
+
+.button-session a:hover {
+    text-decoration: none;
+
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-#footer {
-    height: 15vh;
+.google-logo {
+    width: 15vw;
 }
 
-.head-c {
-    width: 50vw;
-    height: 10vh;
-}
-#head-izq {
-
-#head-der {
+.container-footer {
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(141, 141, 141, 0.247);
+    color: rgb(90, 90, 90)
 }
 
-#main-info  {
-    width: 50vw;
-    height: 75 vh;
+.container-footer-down {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
 }
 
-#footer-link {
-    display:flex
+.spain {
+    border-bottom: 1px solid rgba(56, 56, 56, 0.349);
 }
 
-#footer-link-izq {
-    width: 30vw;
+#spain {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.8rem;
 }
 
-#footer-link-center {
-    width: 40vw;
+.grey-text {
+    color:rgb(90, 90, 90);
 }
-
-#footer-link-der {
-    width: 30vw;
-}
-
