@@ -1,0 +1,61 @@
+.container {
+    background-color: aqua;
+    margin: 0;
+}
+
+#head {
+    background-color: red;
+    height: 10vh;
+    display: flex;
+}
+
+#main {
+    background-color: green;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    background-color: fuchsia;
+    height: 15vh;
+}
+
+.head-c {
+    width: 50vw;
+    height: 10vh;
+}
+#head-izq {
+    background-color: yellowgreen;
+}
+
+#head-der {
+    background-color: yellow;
+}
+
+#main-info  {
+    background-color: brown;
+    width: 50vw;
+    height: 75 vh;
+}
+
+#footer-link {
+    background-color: bisque;
+    display:flex
+}
+
+#footer-link-izq {
+    background-color: rgb(41, 138, 223);
+    widht: 30vw;
+}
+
+#footer-link-center {
+    background-color: deeppink;
+    width: 40vw;
+}
+
+#footer-link-der {
+    background-color: gold;
+    width: 30vw;
+}
+
