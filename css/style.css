@@ -1,3 +1,40 @@
 body {
     background-color: aquamarine;
 }
+
+.box {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+#div1 {
+    background-color: blue;
+    
+}
+
+#div2 {
+    background-color: orangered;
+}
+
+#div3 {
+    background-color: fuchsia;
+}
+
+.div-center {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
